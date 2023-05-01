@@ -131,7 +131,7 @@ body{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.192),
         rgba(0, 0, 0, 0.349)),
-        url(img/senderismo.jpg);
+        url(IMG/senderismo.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -183,14 +183,14 @@ body{
     background-color: #E1E2E6;
 }
 .general-2{
-    background-image: url(img/allen-taylor-QW9W92SdJ54-unsplash.jpg);
+    background-image: url(IMG/allen-taylor-QW9W92SdJ54-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
 .general-3{
-    background-image: url(img/mike-swigunski-Fz0XVa_rLQI-unsplash.jpg);
+    background-image: url(IMG/mike-swigunski-Fz0XVa_rLQI-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
