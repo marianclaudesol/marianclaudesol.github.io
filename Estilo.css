@@ -139,10 +139,6 @@ section.Primero{
 section.Segundo{
     background-color: #5da8cb;
 }
-ul {
-    list-style-type: disc;
-    font-size: 20px;
-}
 
 footer{
     position: relative;
