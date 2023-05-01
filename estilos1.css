@@ -12,18 +12,6 @@
        padding: 5px;     
 }
 
-#header1 {
-
-       width: 97%;
-       height: 350px;
-       overflow: hidden;
-       background-image: url(https://wallpapercave.com/wp/wp2558868.jpg);
-       background-size: cover;
-       background-position: center;
-       background-attachment: fixed;
-      
-}
-
 
 header {
     border:none;
@@ -32,6 +20,41 @@ header {
     height: 170px;
     overflow: hidden;
     text-align: center;
+}
+
+.header {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.274)),
+        url(img/Isla-de-Tenerife-1080-scaled.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    margin-bottom: 30px;
+}
+
+.header-content h2{
+    font-size: 50px;
+    color: #C5C5C5;
+    margin-bottom: 25px;
+  
+}
+.header-content h3{
+    font-size: 50px;
+    color: #C5C5C5;
+    margin-bottom: 25px;
+   
 }
 
 section {
@@ -103,10 +126,6 @@ footer{
 }
 
 
-header.logo img {
-    width: 100%;
-    
-}
 
 section img {
     width: 60%;
@@ -117,30 +136,23 @@ section img {
 }
 
 
-header .logo {
-    float: left;
-    margin-top: 20px;
-    margin-right: 10px;
-    width: 90px;
-}
-
-header .logo img {
-    width: 100%;
-}
-
 .dropdown {
     display: block;
     position: relative;
-    float:left;
+    float: center;
     width: 45%;
-    margin-top: 30px; 
+    margin-top: 10px; 
+    margin-left: 40%;
+    margin-bottom: 10px;
+
   }
 
   .dropdown button {
     display:block;
     width: 40%;
     background-color:transparent;;
-    color: #FFFFFF;
+    color: #000000;
+    font-size: 1rem;
   }
 
   .dropdown-content {
@@ -158,12 +170,12 @@ header .logo img {
 
   .dropdown-content a {
     display: block;
-    color:#FFFFFF;
+    color:#1c1cb3;
     width: 45%;
     font-weight: 900;
     padding: 5px;
     text-decoration: none;
-    text-align: center;
+
 
     
   }
@@ -174,7 +186,7 @@ header .logo img {
     width: 95%;
   }
 
-h3 {
+section h3 {
     text-align: left;
     margin-top: 30px;
     color: aliceblue;
@@ -182,7 +194,7 @@ h3 {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-h2 {
+section h2 {
     width: 90%;
     text-align: center;
     margin-top: 30px;
@@ -229,6 +241,17 @@ aside h1 {
     background-color: aliceblue;
     padding: 4px;
     
+    }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f5f5f5;
+        padding: 0 px;
+        text-align: center;
+        color: #110158;
     }
 
 

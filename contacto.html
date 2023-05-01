@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!--
+            <style>
+                -menu:urls
+                
+        -->
+
+        <link rel="stylesheet" href="contacto.css">
+
+
+    </head>
+    <body>
+       
+            <header>
+            
+                <nav>
+                    <select class="menu" name="menu">
+                        <option><a href="../home.html">Home </a></option>
+                        <option><a href="../quienes somos">Quiénes somos</a></option>
+                        <option><a href="../servicios">Servicios</a>  </option>
+                        <option><a href="contacto">Contacto</a> </option>
+                    </select>
+                 </nav>
+            
+            </header>
+         
+            <main>
+                
+                    <section>
+
+                        <div>
+                            <h1>Haga su consulta</h1>
+                        </div>
+                        <div>
+                            <h2>¿Desea recibir más información turística sobre nuestra isla?</h2>
+                            <p>Mediante el siguiente formulario, podrás enviarnos cualquier consulta <br/>
+                                o sugerencia acerca del contenido facilitado en nuestra web.<br/>
+                                No dude en contactarnos, le atenderemos lo antes posible en el horario elegido.
+                            </p>
+                        </div>
+
+                        
+                        <form class="div_form" action="procesar.jsp" method="post">
+
+                            <fieldset>
+                                <legend>Login</legend>
+                                <label for="usuario">Usuario:</label>
+                                <input id="usuario" type="text" name="usuario" autofocus/>
+                                <br/>
+                                <label for="pass">Contraseña:</label>
+                                <input id="pass" type="password" name="pass"/>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Formulario de contacto</legend>
+
+                                <label for="nombre">Nombre:</label>
+                                <input id="nombre" type="text" name="name" />
+                                <br/>
+                                <label for="email">Email:</label>
+                                <input id="email" type="email" name="email" placeholder="email@adress.com" required/>
+                                <br/>
+                                <label for="telefono">Teléfono:</label>
+                                <input id="telefono" type="tel" name="telefono" placeholder="+34" maxlength=""/>
+                                <br/>
+                                <label for="edad">Edad:</label>
+                                <input id="edad" type="number" step="1" name="edad"/>
+                                <br/>
+                                <label for="url">Enlace a tus redes:</label>
+                                <input id="url" type="url" name="url" placeholder="URL"/>
+                                <br/>
+                                <label for="residencia">Dónde resides:</label>
+                                <br/>
+                                <input type="radio" name="residencia" value="p" checked/>Península<br/>
+                                <input type="radio" name="residencia" value="c"/>Canarias<br/>
+                                <input type="radio" name="residencia" value="e"/>Fuera de España<br/>
+                                <br/>
+                                <label for="idioma">En qué idioma/s desea ser contactado:</label>
+                                <br/>
+                                <input type="checkbox" name="idioma" value="c" />Castellano<br/>
+                                <input type="checkbox" name="idioma" value="ca"/>Catalán<br/>
+                                <input type="checkbox" name="idioma" value="ing"/>Inglés<br/>
+                                <br/>
+                                <label for="día">Mejor franja horaria y fecha para ser contactado:</label>
+                                <select name="día"> 
+                                    <option value="mon" selected>09:00-14:00</option>
+                                    <option value="tue">17:00 - 20:00</option>
+                                    
+                                </select>
+                                <br/>
+                                <input type="date" name="calendario"/>
+                                <br/>
+                                <br/>
+
+                                
+
+                                <label for="mensaje">Mensaje:</label>
+                                <br/>
+                                <textarea class="mensaje" name="mensaje"></textarea>
+                                <br/>
+                                <br/>
+                                <label for="términos"></label>
+                                <input type="checkbox" name="términos" value="y"/>He leído y acepto las condiciones de privacidad y protección de datos.<br/>
+                                
+                                <br/>
+                                <br/>
+                                <input type="submit" value="Enviar datos"/>
+                                <input type="reset" value="Limpiar formulario"/>
+                            
+                            </fieldset>
+
+                            
+                    
+
+
+                        </form>
+                    
+                    </section>
+                
+            </main>
+        
+
+        
+            <aside>
+                
+                <h3>Oficinas de información turísticas disponibles</h3>
+                    
+                
+                <div>
+                    <p class="p_aside">
+                        Aeropuerto Tenerife Norte <br/>
+                        Aeropuerto Tenerife Sur  <br/>              
+                        Centro de Visitantes Los Silos <br/>                
+                        Centro de Visitantes Masca          <br/>     
+                        Centro de Visitantes Parque Rural de Teno <br/> 
+                        kiosco de informacion turistica santa cruz - puertos de tenerife   <br/>                    
+                        Oficina Arona - Los Cristianos                <br/>
+                        Oficina Arona - Playa de las Américas         <br/> 
+                        Oficina Arona - Playa de las Galletas              <br/> 
+                        Oficina Arona - Playa de las Vistas                <br/>
+                        Oficina Buenavista del Norte               <br/>
+                        Oficina Candelaria              <br/>
+                        Oficina CIT SUR               <br/>
+                        Oficina Costa - Adeje - Playa Fañabé <br/>               
+                        Oficina Costa - Adeje - Troya             <br/>   
+                        Oficina del Cabildo Puerto de la Cruz          <br/>     
+                        Oficina El Médano              <br/>
+                        Oficina La Laguna - Casa Alvarado-Bracamonte (Capitanes Generales)   <br/>
+                    </p>
+                </div>
+            </aside>
+
+         
+           
+                <footer>
+                    <p>&copy;Turismo de Tenerife</p>
+                </footer>  
+            
+
+    
+    
+    </body>
+
+ 
+
+</html>

@@ -1,0 +1,241 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin: auto;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    width: 100%;
+    background-color: #ffffff;
+
+    
+}
+
+
+body header {
+    position: static;
+    width: 100%;
+    height: 400px;
+    background-image: url("canarias-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.menu{
+width:50%; 
+height: 80px;
+text-align: center;
+display: block;
+top: 150px;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+color: black;
+border: 1px solid #aaa;
+background-color:rgb(255, 255, 255);
+
+border-radius: 10px;
+box-shadow: 2px 2px 8px 1px rgb(83, 83, 83);
+    
+            
+position: relative;
+margin:auto;
+}   
+
+section{
+
+    
+    width: 50%;
+    
+    float: left;
+
+    margin-left: 10%;
+    margin-bottom: 4%;
+
+}       
+
+aside{
+    
+    width: 25%;
+    float: right;
+    margin-top: 250px;
+    margin-right:5%;
+    
+}
+
+
+
+.p_aside{
+    font-size: 0.7em; 
+    color: rgb(30, 184, 184);
+}       
+
+
+.div_form{
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    
+    width: 100%;
+    
+    height: 5rem;
+    background-color: rgb(235, 236, 236);
+}
+
+input[type=text]{
+    
+    margin-left: 8%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+    
+}
+
+input[type=password]{
+    margin-left: 0.3%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=email]{
+    margin-left: 13%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=tel]{
+    margin-left: 7%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+input[type=number]{
+    margin-left: 13.5%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+input[type=url]{
+    width:70%;
+    margin-bottom: 2%;
+    border: 1px solid #39d6eb;
+    border-radius: 1em;
+    padding: 1% 10%;
+    font-size: 0.6em;
+}
+
+
+input[type=submit] {
+    
+    background-color: #39d6eb;
+    color: rgb(0, 0, 0);
+    padding:  1% 1%;
+    margin: 8px 0;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px rgb(83, 83, 83);
+    font-size: 0.6em;
+}
+
+input[type=submit]:hover {
+    background-color:#27aabb;
+}
+
+input[type=reset]{
+    background-color:#39d6eb;
+    color: black;
+    padding: 1% 1%;
+    margin: 8px 0;
+    font-size: 0.6em;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 1px rgb(83, 83, 83);
+}
+
+input[type=reset]:hover {
+    background-color:#27aabb;
+}
+
+.mensaje{
+    width: 90%;
+    height: 10vh;
+    border-color: #39d6eb;
+    border-radius: 15px;
+    resize:none;
+    padding: 2%;
+    font-weight:bold;
+}
+
+
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+
+input:focus {
+    background-color: rgb(234, 232, 236);
+} 
+
+
+
+@media (min-width: 1300px) {
+    
+    body{
+        width: 100%;
+        background-color: #ffffff;
+    }
+  }
+
+  @media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #eafad0;
+    }
+  }
+
+  @media  screen and (min-width: 1024px) and (max-width: 1299px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #d0fad9;
+    }
+  }
+
+  @media  screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
+    }
+  }
+
+  @media  screen and (min-width: 480px) and (max-width: 599px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
+    }
+  }
