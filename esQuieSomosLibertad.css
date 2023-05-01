@@ -23,7 +23,7 @@ body{
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.274)),
-        url(img/Isla-de-Tenerife-1080-scaled.jpg);
+        url(IMG/Isla-de-Tenerife-1080-scaled.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,6 +46,51 @@ body{
     color: #C5C5C5;
     margin-bottom: 25px;
 }
+.dropdown {
+    display: block;
+    position: relative;
+    float: center;
+    width: 45%;
+    margin-top: 10px; 
+    margin-left: 40%;
+    margin-bottom: 10px;
+
+  }
+
+  .dropdown button {
+    display:block;
+    width: 40%;
+    background-color: #ebad8d;
+    color: #000000;
+    font-size: 1rem;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: inline-block;
+    background-color: #ce967b;
+    color:#e1e1e3;
+    text-decoration: none;
+    
+  }
+
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #1e25af;
+    width: 95%;
+  }
 .btn-1{
     display: inline-block;
     padding: 11px 35px;
