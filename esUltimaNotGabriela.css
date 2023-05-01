@@ -13,15 +13,6 @@
 }
 
 
-header {
-    border:none;
-    width: 99%;
-    margin-left: 10px;
-    height: 170px;
-    overflow: hidden;
-    text-align: center;
-}
-
 .header {
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -34,27 +25,103 @@ header {
     display: flex;
     align-items: center;
 }
+
 .header-content{
     text-align: center;
 }
+
 .header-content h1{
     font-size: 75px;
     line-height: 80px;
     color: #F9FAFC;
     margin-bottom: 30px;
+
 }
 
-.header-content h2{
-    font-size: 50px;
-    color: #C5C5C5;
-    margin-bottom: 25px;
-  
+.dropdown {
+    display: block;
+    position: relative;
+    float: center;
+    width: 45%;
+    margin-top: 10px; 
+    margin-left: 40%;
+    margin-bottom: 10px;
+
+  }
+
+  .dropdown button {
+    display:block;
+    width: 40%;
+    background-color: #ebad8d;
+    color: #000000;
+    font-size: 1rem;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: inline-block;
+    background-color: #ce967b;
+    color:#e1e1e3;
+    text-decoration: none;
+    
+  }
+
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #1e25af;
+    width: 95%;
+  }
+
+section {
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    float: left;
 }
-.header-content h3{
-    font-size: 50px;
-    color: #C5C5C5;
-    margin-bottom: 25px;
+
+#section1 {
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/originals/f3/15/19/f31519ffd46d0399f1a220c87562a23a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section2 {
+    margin: 20px;
+    background-image: url( https://th.bing.com/th/id/R.15e318b7bfb5efe181b7bbaa3b1fc38a?rik=tbud7%2fRQ7aDoeA&riu=http%3a%2f%2fblog.kolau.com%2fwp-content%2fuploads%2f2020%2f03%2fEstrategias-Efectivas-sobre-C%c3%b3mo-Vender-por-Tel%c3%a9fono.-Mujer-hablando-por-tel%c3%a9fono.jpg&ehk=bJFwJyOV6jT6RpJ1mtLj%2fup5sebqEm7QSZOLiAQ1bdE%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
    
+}
+
+#section3 {
+    margin: 20px;
+    background-image: url(https://th.bing.com/th/id/R.23b6ce08e0e3f06280ee3c43b23d994c?rik=%2bDmbgILi8Kx9ag&riu=http%3a%2f%2fwww.woll.es%2fwp-content%2fuploads%2f2019%2f01%2fCaptura-de-pantalla-2019-01-23-a-las-10.13.10.png&ehk=dqbqMYzReBbz4uKwVr52uOgOmwFuCDdrDlE8M5oMs%2bY%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#section4 {
+    margin: 20px;
+    background-image: url(https://www.tenerife-city.com/wp-content/uploads/2020/08/photo-1544551763-8dd44758c2dd-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 section {
@@ -116,16 +183,6 @@ aside p {
     
 }
 
-footer{
-  
-    clear: both;
-    padding: 8px;
-    width: 97,5%;
-    height: auto;
-    background-color: rgb(248, 245, 240);
-}
-
-
 
 section img {
     width: 60%;
@@ -139,18 +196,15 @@ section img {
 .dropdown {
     display: block;
     position: relative;
-    float: center;
+    float:left;
     width: 45%;
-    margin-top: 10px; 
-    margin-left: 40%;
-    margin-bottom: 10px;
-
+    margin-top: 30px; 
   }
 
   .dropdown button {
     display:block;
     width: 40%;
-    background-color:transparent;;
+    background-color: #ebad8d;
     color: #000000;
     font-size: 1rem;
   }
@@ -169,14 +223,10 @@ section img {
   }
 
   .dropdown-content a {
-    display: block;
-    color:#1c1cb3;
-    width: 45%;
-    font-weight: 900;
-    padding: 5px;
+    display: inline-block;
+    background-color: #ce967b;
+    color:#e1e1e3;
     text-decoration: none;
-
-
     
   }
 
@@ -186,7 +236,7 @@ section img {
     width: 95%;
   }
 
-section h3 {
+h3 {
     text-align: left;
     margin-top: 30px;
     color: aliceblue;
@@ -243,15 +293,13 @@ aside h1 {
     
     }
 
-    footer{
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: #f5f5f5;
-        padding: 0 px;
-        text-align: center;
-        color: #110158;
+   footer{
+  
+        clear: both;
+        padding: 8px;
+        width: 97,5%;
+        height: auto;
+        background-color: rgb(248, 245, 240);
     }
 
 

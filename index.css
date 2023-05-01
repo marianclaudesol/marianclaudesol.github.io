@@ -12,6 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 .header {
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -24,14 +25,17 @@ body{
     display: flex;
     align-items: center;
 }
+
 .header-content{
     text-align: center;
 }
+
 .header-content h1{
     font-size: 75px;
     line-height: 80px;
     color: #F9FAFC;
     margin-bottom: 30px;
+
 }
 
 .dropdown {
@@ -42,42 +46,45 @@ body{
     margin-top: 10px; 
     margin-left: 40%;
     margin-bottom: 10px;
-}
 
-.dropdown button {
+  }
+
+  .dropdown button {
     display:block;
     width: 40%;
-    background-color: #EBAD8D;
+    background-color: #ebad8d;
     color: #000000;
     font-size: 1rem;
-}
+  }
 
-.dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
     width: 40%;
     text-align: center;
     overflow: auto;
-    background-color: #CE967B;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}
+  }
 
-.dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
 
-.dropdown-content a {
+  .dropdown-content a {
     display: inline-block;
-    background-color: #CE967B;
-    color: #F9FAFC;
-    text-transform: uppercase;  
-}
+    background-color: #ce967b;
+    color:#e1e1e3;
+    text-decoration: none;
+    
+  }
 
-.dropdown-content a:hover {
-    color: #F9FAFC;
-    background-color: #EBAD8D;
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #1e25af;
     width: 95%;
-}
+  }
+
+
 .Centro_pagina {
     display: flex;
     flex-direction: row;
@@ -107,7 +114,3 @@ body{
     margin-left: 20px;
 }
 
-.footer{
-    background-color: #EBAD8D;
-    padding-left: 10px;
-}
