@@ -1,0 +1,282 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#contenedor {
+       
+       margin: auto;
+       width: 100%;
+       padding: 5px;     
+}
+
+#header1 {
+
+       width: 97%;
+       height: 350px;
+       overflow: hidden;
+       background-image: url(https://wallpapercave.com/wp/wp2558868.jpg);
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+      
+}
+
+
+header {
+    border:none;
+    width: 99%;
+    margin-left: 10px;
+    height: 170px;
+    overflow: hidden;
+    text-align: center;
+}
+
+section {
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+#section1 {
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/originals/f3/15/19/f31519ffd46d0399f1a220c87562a23a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section2 {
+    margin: 20px;
+    background-image: url( https://th.bing.com/th/id/R.15e318b7bfb5efe181b7bbaa3b1fc38a?rik=tbud7%2fRQ7aDoeA&riu=http%3a%2f%2fblog.kolau.com%2fwp-content%2fuploads%2f2020%2f03%2fEstrategias-Efectivas-sobre-C%c3%b3mo-Vender-por-Tel%c3%a9fono.-Mujer-hablando-por-tel%c3%a9fono.jpg&ehk=bJFwJyOV6jT6RpJ1mtLj%2fup5sebqEm7QSZOLiAQ1bdE%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#section3 {
+    margin: 20px;
+    background-image: url(https://th.bing.com/th/id/R.23b6ce08e0e3f06280ee3c43b23d994c?rik=%2bDmbgILi8Kx9ag&riu=http%3a%2f%2fwww.woll.es%2fwp-content%2fuploads%2f2019%2f01%2fCaptura-de-pantalla-2019-01-23-a-las-10.13.10.png&ehk=dqbqMYzReBbz4uKwVr52uOgOmwFuCDdrDlE8M5oMs%2bY%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#section4 {
+    margin: 20px;
+    background-image: url(https://www.tenerife-city.com/wp-content/uploads/2020/08/photo-1544551763-8dd44758c2dd-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+aside{
+    margin: 10px;
+    width: 40%;
+    float: left;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#aside1 {
+    margin: 20px;
+    height: 300px;
+    background-image: url(https://www.tenerifecarhire.com/blog/wp-content/uploads/golf-tenerife.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aside2 {
+    margin: 20px;
+    height: 300px;
+    image-orientation: center;
+    background-image: url(https://www.thewowstyle.com/wp-content/uploads/2019/03/Siam-Park-1024x538.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aside3 {
+    margin: 20px;
+    height: 300px;
+    image-orientation: center;
+    background-image: url(https://www.ggaparapente.com/wp-content/uploads/2020/10/G.G.A.parapente-parapente-desde-el-teide-en-tenerife.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside p {
+    margin: 10px;
+    float: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: aliceblue;
+    
+}
+
+footer{
+  
+    clear: both;
+    padding: 8px;
+    width: 97,5%;
+    height: auto;
+    background-color: rgb(248, 245, 240);
+}
+
+
+header.logo img {
+    width: 100%;
+    
+}
+
+section img {
+    width: 60%;
+    height: 100%;
+    float: center;
+    padding: 5px;
+    
+}
+
+
+header .logo {
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+.dropdown {
+    display: block;
+    position: relative;
+    float:left;
+    width: 45%;
+    margin-top: 30px; 
+  }
+
+  .dropdown button {
+    display:block;
+    width: 40%;
+    background-color:transparent;;
+    color: #FFFFFF;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+    color:#FFFFFF;
+    width: 45%;
+    font-weight: 900;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+
+    
+  }
+
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #1e25af;
+    width: 95%;
+  }
+
+h3 {
+    text-align: left;
+    margin-top: 30px;
+    color: aliceblue;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h2 {
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5px;
+    color: aliceblue;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+section  h1 {
+    width: 90%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 4px;
+}
+
+section p {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 111px;
+    color: azure;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    float: right;
+}
+
+
+aside img {
+    width: 85%;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+aside h1 {
+    width: 85%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 4px;
+    
+    }
+
+
+
+
+    @media screen and (max-width: 700px) {
+        section {
+            width: auto;
+            float: none;
+        }
+        aside {
+            width: auto;
+            float: none;
+        }
+    }
+    
+    @media scrren and (max-width: 480px) {
+        #contenedor {
+            width: 100%;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
