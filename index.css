@@ -12,12 +12,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 .header {
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.274)),
-        url(img/tenerife.jpg);
+        url(img/Isla-de-Tenerife-1080-scaled.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,17 +24,14 @@ body{
     display: flex;
     align-items: center;
 }
-
 .header-content{
     text-align: center;
 }
-
 .header-content h1{
     font-size: 70px;
     line-height: 80px;
     color: #F9FAFC;
     margin-bottom: 30px;
-
 }
 
 .dropdown {
@@ -46,45 +42,45 @@ body{
     margin-top: 10px; 
     margin-left: 41%;
     margin-bottom: 10px;
+    min-width: 150px;
+}
 
-  }
-
-  .dropdown button {
+.dropdown button {
     display:block;
-    width: 40%;
-    background-color: #ebad8d;
+    width: 45%;
+    background-color: #EBAD8D;
     color: #000000;
     font-size: 1rem;
-  }
+    min-width: 150px;
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     width: 45%;
     text-align: center;
     overflow: auto;
+    background-color: #CE967B;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-  }
+    min-width: 150px;
+}
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
-  .dropdown-content a {
+.dropdown-content a {
     display: inline-block;
-    background-color: #ce967b;
-    color:#e1e1e3;
-    text-decoration: none;
-    
-  }
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;  
+}
 
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #1e25af;
+.dropdown-content a:hover {
+    color: #F9FAFC;
+    background-color: #EBAD8D;
     width: 95%;
-  }
-
-
+}
 .Centro_pagina {
     display: flex;
     flex-direction: row;
@@ -114,3 +110,7 @@ body{
     margin-left: 20px;
 }
 
+.footer{
+    background-color: #EBAD8D;
+    padding-left: 10px;
+}
