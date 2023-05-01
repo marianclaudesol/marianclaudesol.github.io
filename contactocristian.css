@@ -17,7 +17,7 @@ body header {
     position: static;
     width: 100%;
     height: 400px;
-    background-image: url("tenerife.jpg");
+    background-image: url("img/Isla-de-Tenerife-1080-scaled.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
@@ -81,17 +81,7 @@ aside{
 
 
 
-/*
-footer{
-    position: fixed;
-    bottom:0;
-    
-    width: 100%;
-    
-    height: 5rem;
-    background-color: rgb(235, 236, 236);
-}
-*/
+
 
 footer{
   
