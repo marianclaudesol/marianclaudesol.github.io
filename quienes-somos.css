@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+} 
+
+.header {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.274)),
+        url(img/Isla-de-Tenerife-1080-scaled.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    margin-bottom: 30px;
+}
+
+.header-content h2{
+    font-size: 50px;
+    color: #C5C5C5;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;  
+   }
+   
+   .btn-1:hover{
+       background-color: #EBAD8D;
+   }
+
+   .somos{
+    padding: 100px;
+    background-color: #E1E2E6;
+    position: relative;
+}
+.somos-content{
+    text-align: center;
+}
+.somos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.somos-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 50px 250px;
+    margin-bottom: 35px;
+}
+.somos-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px
+
+}
+
+.somos-1{
+    padding: 0 25px;   
+   }
+
+.somos-1 img{
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.somos-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom:15px;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #000000;
+}
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+@media(max-width:991px){
+    
+    .header {
+        min-height: 0vh;
+    }
+    .header-contest {
+        padding: 100px 30px;
+    }
+    .header-contest p{
+        padding: 0;
+    }
+    .somos{
+        padding: 30px;
+    }
+    .somos-contest h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .somos-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .somos-img{
+        display: none;
+    }
+}
