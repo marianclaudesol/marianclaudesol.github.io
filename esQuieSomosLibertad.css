@@ -47,7 +47,7 @@ body{
     margin-top: 10px; 
     margin-left: 41%;
     margin-bottom: 10px;
-    min-width: 150px;
+    min-width: 180px;
 }
 .dropdown button {
     display:block;
@@ -55,7 +55,7 @@ body{
     background-color: #EBAD8D;
     color: #000000;
     font-size: 1rem;
-    min-width: 150px;
+    min-width: 180px;
 }
 .dropdown-content {
     display: none;
@@ -65,7 +65,7 @@ body{
     overflow: auto;
     background-color: #CE967B;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    min-width: 150px;
+    min-width: 180px;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -94,7 +94,6 @@ body{
     font-size: 55px;
     line-height: 70px;
     color: #323337;
-    padding: 0 250px;
     margin-bottom: 15px;
 }
 .somos-img{
@@ -117,7 +116,7 @@ body{
 
 .somos-1{
     padding: 0 25px;   
-   }
+}
 
 .somos-1 img{
     width: 300px;
@@ -139,38 +138,31 @@ body{
     justify-content: space-between;
 }
 
-@media (min-width: 1300px) {
-    
-    body{
-        width: 100%;
-        background-color: #ffffff;
-    }
-  }
+@media(max-width:991px){
 
-  @media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    body{
-      width: 99%;
-      background-color: #eafad0;
+    .header {
+        min-height: 450px;
     }
-  }
-
-  @media  screen and (min-width: 1024px) and (max-width: 1299px) and (orientation: landscape) {
-    body{
-      width: 99%;
-      background-color: #d0fad9;
+    .header-contest {
+        padding: 100px 30px;
     }
-  }
-
-  @media  screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
-    body{
-      width: 99%;
-      background-color: #edd0fa;
+    .header-contest p{
+        padding: 0;
     }
-  }
-
-  @media  screen and (min-width: 480px) and (max-width: 599px) and (orientation: landscape) {
-    body{
-      width: 99%;
-      background-color: #edd0fa;
+    .somos{
+        padding: 30px;
     }
-  }
+    .somos-contest h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .somos-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .somos-img{
+        display: none;
+    }
+}

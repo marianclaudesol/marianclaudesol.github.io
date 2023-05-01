@@ -94,7 +94,6 @@ body{
     line-height: 70px;
     color: #323337;
     text-transform: uppercase;
-    padding: 0 250px;
     margin-bottom: 15px;
 }
 .coffee-img{
@@ -241,40 +240,94 @@ p{
     margin-bottom: 15px;
 }
 
-@media (min-width: 1300px) {
-    
-    body{
+@media(max-width:991px){
+
+    .header {
+        min-height: 450px;
+    }
+    .header-contest {
+        padding: 100px 30px;
+    }
+    .header-contest p{
+        padding: 0;
+    }
+    .coffee{
+        padding: 30px;
+    }
+    .coffee-contest h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .coffee-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .coffee-img{
+        display: none;
+    }
+    .services{
+        padding: 30px;
+    }
+    .services-content p{
+        padding: 0;
+    }
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .services-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general-1{
         width: 100%;
-        background-color: #ffffff;
+        padding: 30px;
+        text-align: center;
     }
-  }
+    .general-2 .general-3{
+        display: none;
+    }
+    .blog{
+        padding: 30px;
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    @media screen and (max-width: 700px) {
+        section {
+            width: auto;
+            float: none;
+        }
+        aside {
+            width: auto;
+            float: none;
+        }
+    }
 
-  @media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    body{
-      width: 99%;
-      background-color: #eafad0;
+    @media scrren and (max-width: 480px) {
+        #contenedor {
+            width: 100%;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+        }
     }
-  }
 
-  @media  screen and (min-width: 1024px) and (max-width: 1299px) and (orientation: landscape) {
-    body{
-      width: 99%;
-      background-color: #d0fad9;
-    }
-  }
 
-  @media  screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
-    body{
-      width: 99%;
-      background-color: #edd0fa;
-    }
-  }
-
-  @media  screen and (min-width: 480px) and (max-width: 599px) and (orientation: landscape) {
-    body{
-      width: 99%;
-      background-color: #edd0fa;
-    }
-  }
 
 
