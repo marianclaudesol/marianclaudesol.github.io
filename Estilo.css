@@ -131,7 +131,7 @@ h5{
     height: 100%;
     font-family: monospace;
     margin-top: 50px;
-    background-image: url("/IMG/Taxis.webp");
+    background-image: url("IMG/Taxis.webp");
 }
 section.Primero{
     background-color: #77bae3;
