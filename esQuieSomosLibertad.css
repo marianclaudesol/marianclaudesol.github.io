@@ -115,31 +115,38 @@ body{
     justify-content: space-between;
 }
 
-@media(max-width:991px){
+@media (min-width: 1300px) {
     
-    .header {
-        min-height: 0vh;
+    body{
+        width: 100%;
+        background-color: #ffffff;
     }
-    .header-contest {
-        padding: 100px 30px;
+  }
+
+  @media  screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #eafad0;
     }
-    .header-contest p{
-        padding: 0;
+  }
+
+  @media  screen and (min-width: 1024px) and (max-width: 1299px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #d0fad9;
     }
-    .somos{
-        padding: 30px;
+  }
+
+  @media  screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
     }
-    .somos-contest h2{
-        padding: 0;
+  }
+
+  @media  screen and (min-width: 480px) and (max-width: 599px) and (orientation: landscape) {
+    body{
+      width: 99%;
+      background-color: #edd0fa;
     }
-    .txt-p{
-        padding: 0;
-    }
-    .somos-group{
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-    .somos-img{
-        display: none;
-    }
-}
+  }
